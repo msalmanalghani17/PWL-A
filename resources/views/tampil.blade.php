@@ -7,6 +7,15 @@
     @vite ('resources/css/app.css')
 </head>
 <body>
-    <x-sidebar/>
+    <x-navbar/>
+    <div class="flex justify-items-stretch">
+    <div class="flex">
+        <div class="w-1/4">
+            <x-sidebar/>    
+        </div>
+    </div>
+    <x-halamantambahdata/>
+    <x-tabel/>    
+        
 </body>
 </html>
